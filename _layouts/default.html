@@ -13,13 +13,14 @@
     <meta property="og:color" content="color hex here" />
 
     <!--CSS-->
-    <link
+    <!-- <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
       crossorigin="anonymous"
-    />
+    /> -->
 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/flatly/bootstrap.min.css" integrity="sha384-qF/QmIAj5ZaYFAeQcrQ6bfVMAh4zZlrGwTPY7T/M+iTTLJqJBJjwwnsE5Y0mV7QK" crossorigin="anonymous">
     <link
       href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
       rel="stylesheet"
@@ -27,7 +28,7 @@
 
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
-      rel="stylehsheet"
+      rel="stylesheet"
     />
 
     <!--Scripts-->
@@ -44,7 +45,7 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">CM Lopez</a>
         <button
@@ -73,6 +74,13 @@
 
     <div style="width: 100%; margin: 0; padding: 0;" id="content">
         {{ content }}
+    </div>
+    <div class="container-fluid justify-content-center bg-primary" id="footer">
+      <div class="container-fluid py-4">
+        <h1 class="text-center text-white pb-3">City of Palo Alto - Councilman Antonio Lopez</h1>
+        <h1 class="text-center text-white pb-3">Phone: 650-853-3100</h1>
+        <h1 class="text-center text-white ">Email: alopez@cityofepa.org</h1>
+      </div>
     </div>
   </body>
 </html>
